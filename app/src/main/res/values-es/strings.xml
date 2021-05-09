@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">En que Calles La Plata</string>
+    <string name="description">*Recuerde que solo se puede calcular las calles dentro del casco urbano, el cual va desde la calle 1 a 31 y, perpendicularmente a estas, las 32 a 72.</string>
+    <string name="street">Calle</string>
+    <string name="number">Altura</string>
+    <string name="text_output">Ingrese la calle y la altura</string>
+    <string name="button">Calcular</string>
+    <string name="result">El lugar está entre %1$d y %2$d</string>
+    <string name="outOfRangeStreet">Calle fuera de rango</string>
+    <string name="outOfRangeNumber">Número fuera de rango</string>
+    <string name="emptyStreet">Ingrese una calle</string>
+    <string name="emptyNumber">Ingrese una altura</string>
+    <string name="title">Ingrese la dirección</string>
+</resources>

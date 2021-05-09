@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">On what streets La Plata</string>
+    <string name="title">Enter the address</string>
+    <string name="description">*Remember that you can only calculate the streets within the urban area, which goes from streets 1 to 31 and, perpendicular to these, 32 to 72.</string>
+    <string name="street">Street</string>
+    <string name="number">Number</string>
+    <string name="text_output">Enter the street and the number</string>
+    <string name="button">Calculate</string>
+    <string name="result">The place  is between %1$d and %2$d</string>
+    <string name="outOfRangeStreet">The street is out of range</string>
+    <string name="outOfRangeNumber">The number is out of range</string>
+    <string name="emptyStreet">Enter a street</string>
+    <string name="emptyNumber">Enter a number</string>
+</resources>
