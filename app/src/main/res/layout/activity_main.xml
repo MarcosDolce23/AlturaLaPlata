@@ -84,6 +84,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="55dp"
         android:layout_marginRight="55dp"
+        android:baselineAligned="false"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,10 +92,13 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_layout_street"
-            android:layout_width="130dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="40dp"
-            android:layout_marginRight="40dp"
+            android:layout_gravity="start"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
             android:textColorHint="@color/hintTextColor"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp">
@@ -116,8 +120,12 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_input_layout_number"
-            android:layout_width="130dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
             android:textColorHint="@color/hintTextColor"
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp">

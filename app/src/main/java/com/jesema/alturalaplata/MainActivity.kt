@@ -82,7 +82,7 @@ class MainActivity : AppCompatActivity() {
             if (street.toInt() in 1..80 && street.toInt() != 52) {
 
                 // Streets parallel to 50
-                if (street.toInt() in 32..71) {
+                if (street.toInt() in 32..72) {
                     if (number.toInt() < 1800) {
                         if (number.toInt() >= 300) {
                             firstStreet = if (halfDigit < 5) {
@@ -99,7 +99,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 // Streets parallel to 1
-                if (street.toInt() in 1..30) {
+                if (street.toInt() in 1..31) {
                     firstStreet = if (number.toInt() < 100) {
                         if (number.toInt() < 50) {
                             32
@@ -120,14 +120,14 @@ class MainActivity : AppCompatActivity() {
 
                 // Diagonals 73 and 74
                 if (street.toInt() == 73 || street.toInt() == 74) {
-                    if (number.toInt() < 3600) {
-                        firstStreet = topDigitsNumber -5
+                    if (number.toInt() in 650..3599) {
+                        firstStreet = topDigitsNumber - 5
                     }
                 }
 
                 // Diagonals 79 and 80
                 if (street.toInt() == 79 || street.toInt() == 80) {
-                    if (number.toInt() < 1100) {
+                    if (number.toInt() in 600..1099) {
                         firstStreet = topDigitsNumber - 5
                     }
                 }
