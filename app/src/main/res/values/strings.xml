@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">On what streets La Plata</string>
+    <string name="app_name">Which street La Plata</string>
     <string name="title">Enter the address</string>
-    <string name="description">*Remember that you can only calculate the streets within the urban area, which goes from streets 1 to 31 and, perpendicular to these, 32 to 72.</string>
+    <string name="description">*Remember that the calculation only applies to the urban area, that is, the square formed by streets from 1 to 31 and their perpendiculars from 32 to 72 (not including street 52). Streets 73 to 80 are diagonal.</string>
     <string name="street">Street</string>
     <string name="number">Number</string>
     <string name="text_output">Enter the street and the number</string>
