@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Cual calle La Plata</string>
-    <string name="description">*Recuerde que el cálculo solo aplica al casco urbano, es decir el cuadro formado por las calles de 1 a 31 y sus perpendiculares de 32 a 72 (sin incluir la calle 52). Las calles 73 a 80 son diagonales.</string>
+    <string name="description">*Recuerde que el cálculo solo aplica al casco urbano, es decir, el cuadro formado por las calles de 1 a 31 y sus perpendiculares de 32 a 72 (sin incluir la calle 52). Las calles 73 a 80 son diagonales.</string>
     <string name="street">Calle</string>
     <string name="number">Altura</string>
     <string name="text_output">Ingrese la calle y la altura</string>
